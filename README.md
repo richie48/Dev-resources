@@ -10,3 +10,5 @@ Just some resources bumped into along the way
 -To have a globally recognised avatar gravatar npm is great. This mean user can now have a globally recognizable profile when they leave traces of information on the web...This gives a simple explanation of how gravatar works. https://youtu.be/UO6fItBMa94
 
 -To get the geographic location of an address string a good resource to use is node gecoder npm.
+
+-mv is a good npm module to use for moving files in node js.
