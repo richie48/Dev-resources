@@ -12,3 +12,5 @@ Just some resources bumped into along the way
 -To get the geographic location of an address string a good resource to use is node gecoder npm.
 
 -mv is a good npm module to use for moving files in node js.
+
+-shortid npm can be used to generate random short ids, if needed.
