@@ -18,3 +18,12 @@ Just some resources bumped into along the way
 -UUIDs are generally used for identifying information that needs to be unique within a system or network thereof. Their uniqueness and low probability in being repeated makes them useful for being associative keys in databases and identifiers for physical hardware within an organization
 
 -node cron is another great resource for cron jobs https://youtu.be/x8VIVR6ABHo
+
+
+-what a simple quiz schema should look like in node
+// Dependencies
+const mongoose = require('mongoose')
+const Schema = mongoose.Schema
+// Quiz Schema
+const QuestionSchema = new Schema({ id: Number, question: String, options: Array, answer: Array })
+module.exports = mongoose.model('Question', QuestionSchema)
