@@ -27,3 +27,5 @@ const Schema = mongoose.Schema
 // Quiz Schema
 const QuestionSchema = new Schema({ id: Number, question: String, options: Array, answer: Array })
 module.exports = mongoose.model('Question', QuestionSchema)
+
+-Free online tool to remove background from an image: https://remove.bg
